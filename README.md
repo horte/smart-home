@@ -1,0 +1,18 @@
+# Utils scripts for Raspberry Pi + Tellstick Setup
+
+`random-run` somewhat randomizes functionality for turning on/off devices  
+`crontab` uses cron to schedule when devices should be turned on/off  
+`/etc/tellstick.conf` example configuration  
+
+## Raspberry Pi + Tellstick Setup
+(Guides in Swedish)  
+http://lowenhamn.se/prylar/raspberry-pi-tellstick-och-iphone  
+https://blogg.itslav.nu/?p=875  
+
+## References
+http://developer.telldus.com/wiki/TellStick_conf  
+https://github.com/pakerfeldt/remotestick-server  
+
+## See also
+Raspberry Pi dist specially made for Tellstick  
+http://automagically.weebly.com/index.html  

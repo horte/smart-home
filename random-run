@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo `date`
+echo "Commands $1:$2"
+
+r=$(( $RANDOM % 10 ));  #random number 0-9
+
+if [ $r -eq 0 ]; then
+....
+    if [ $1 = "on" ]; then
+        echo "Turning on device: $2"
+        /usr/bin/tdtool -n $2
+    elif [ $1 = "off" ]; then
+        echo "Turning off device: $2"
+        /usr/bin/tdtool -f $2
+    fi
+else
+    echo "Doing nothing ($r)"
+fi
+
+exit 0;

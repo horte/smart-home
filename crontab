@@ -1,0 +1,17 @@
+# Living Room Windows
+## Start
+40-59 15 * * * /home/pi/random-run on 3 >> random-run.log
+## Stop
+30-59 7 * * * /home/pi/random-run off 3 >> random-run.log
+
+# Living Room Small Lamp
+## Start
+* 16 * * * /home/pi/random-run on 1 >> random-run.log
+## Stop
+30-59 0 * * * /home/pi/random-run off 1 >> random-run.log
+
+# Kitchen
+## Start
+30-59 15 * * * /home/pi/random-run on 2 >> random-run.log
+## Stop
+30-59 7 * * * /home/pi/random-run off 2 >> random-run.log
