@@ -12,6 +12,7 @@ https://blogg.itslav.nu/?p=875
 ## References
 http://developer.telldus.com/wiki/TellStick_conf  
 https://github.com/pakerfeldt/remotestick-server  
+http://www.wexoo.net/20130406/running-cron-jobs-on-raspberry-pi-in-raspbmc
 
 ## See also
 Raspberry Pi dist specially made for Tellstick  
