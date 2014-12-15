@@ -2,7 +2,10 @@
 
 `random-run` somewhat randomizes functionality for turning on/off devices  
 `crontab` uses cron to schedule when devices should be turned on/off  
-`/etc/tellstick.conf` example configuration  
+`/etc/tellstick.conf` example configuration
+`/home/pi/remotestick/remotestick-startup.sh` startup script for remotestick ui (config ip and port)  
+
+ui `http://ip:port/s/`  
 
 ## Raspberry Pi + Tellstick Setup
 (Guides in Swedish)  
